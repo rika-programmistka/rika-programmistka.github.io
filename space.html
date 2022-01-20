@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="space.css" />
+  </head>
+  <body>
+    <div class="bodydiv">
+      <p id="im">
+        Я пока что так себе программист поэтому тут могут быть баги, если
+        произойдет что то странное, то просто перезагрузите страницу
+      </p>
+      <p id="attention">Чтобы управлять луной, сначала остановите её</p>
+      <p id="menu">Меню</p>
+      <h1 id="spacetxt">Space</h1>
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="window">
+        <div class="menudiv">
+          <p id="menuclose">закрыть</p>
+          <p class="p">Управление</p>
+          <p class="p">Параметры</p>
+        </div>
+        <p class="return">Назад</p>
+        <div class="windowdiv1">
+          <p id="per">Перемещение</p>
+          <div class="wasd">
+            <div class="buttons" id="w"><p class="but">w</p></div>
+            <div class="buttons" id="a"><p class="but">A</p></div>
+            <div class="buttons" id="s"><p class="but">S</p></div>
+            <div class="buttons" id="d"><p class="but">D</p></div>
+          </div>
+          <div class="ijkl">
+            <div class="buttons" id="i"><p class="but">I</p></div>
+            <div class="buttons" id="j"><p class="but">J</p></div>
+            <div class="buttons" id="k"><p class="but">K</p></div>
+            <div class="buttons" id="l"><p class="but">L</p></div>
+          </div>
+          <div class="arrows">
+            <div class="buttons" id="i"><p class="but">↑</p></div>
+            <div class="buttons" id="j"><p class="but">←</p></div>
+            <div class="buttons" id="k"><p class="but">↓</p></div>
+            <div class="buttons" id="l"><p class="but">→</p></div>
+          </div>
+          <p id="sol">Солнце</p>
+          <p id="earth">Земля</p>
+          <p id="moon">Луна</p>
+          <div class="but1"><p class="but">1</p></div>
+          <p id="but1txt">Включить/выключить солнце</p>
+          <div class="but2"><p class="but">2</p></div>
+          <p id="but2txt">Включить/выключить землю</p>
+          <div class="but3"><p class="but">3</p></div>
+          <p id="but3txt">Включить/выключить луну</p>
+          <div class="but4"><p class="but">R</p></div>
+          <p id="but4txt">Сбросить позиции</p>
+          <div class="but5"><p class="but">X</p></div>
+          <p id="but5txt">Остановить вращение луны</p>
+          <p id="but5-1txt">если луна окажется позади земли, то нажмите Z</p>
+        </div>
+        <div class="windowdiv2">
+          <input type="range" class="input1" min="1" max="100" value="80" />
+          <p class="input1txt">Размер солнца</p>
+          <input type="range" class="input2" min="1" max="100" value="70" />
+          <p class="input2txt">Размер земли</p>
+          <input type="range" class="input3" min="1" max="100" value="60" />
+          <p class="input3txt">Размер луны</p>
+          <p class="button">Применить</p>
+          <p id="reset">Сбросить</p>
+          <input
+            type="checkbox"
+            id="checkbox1"
+            name="checkbox1"
+            checked
+          /><label for="checkbox1" id="lab1">Солнце </label>
+          <input
+            type="checkbox"
+            id="checkbox2"
+            name="checkbox2"
+            checked
+          /><label for="checkbox2" id="lab2">Земля</label>
+          <input
+            type="checkbox"
+            id="checkbox3"
+            name="checkbox3"
+            checked
+          /><label for="checkbox3" id="lab3">Луна</label>
+        </div>
+      </div>
+    </div>
+    <script src="space.js"></script>
+  </body>
+</html>
