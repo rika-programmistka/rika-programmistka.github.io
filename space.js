@@ -291,6 +291,8 @@ document.addEventListener('keydown', (event) => {
     att = 0
   } else if (key == 'KeyZ') {
     three.style.zIndex = 3
+  } else if (key == 'KeyN') {
+  one.style.display = 'none'
   }
 })
 p1.onclick = () => {
